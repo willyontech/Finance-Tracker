@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Finance tracker</title>
+        <link rel="stylesheet"href="style.css">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1>Student FinanceTracker</h1>
+
+            <nav aria-label-"Main navigation">
+
+                <ul>
+
+                    <li><a href="#dashboard">Dashboard</a></li>
+                    <li><a href="#transactions">Transactions</a></li>
+                    <li><a href="#budget">Budget</a></li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <main>
+            <section id="dashboard" aria-labelledby="dash-title">
+                <h2 id="dash-title">Dashboard</h2>
+                <div class="stats" role="region" aria-live="polite">
+                    <article><h3>Balance</h3><p id="balance">0.00 rwf</p></article>
+                        <article><h3>income</h3><p id="income">0.00 rwf</p></article>
+                        <article><h3>Expenses</h3><p id="expenses">0.00 rwf</p></article>
+    
+                </div>
+
+            </section>
+
+            <section id="transactions" aria-labelledby="trans-title">
+                <h2 id="trans-title">Add Transaction</h2>
+                <form aria-label="Transaction form">
+                    
+                    <label for=""desc">Description</label>
+                    <input id="desc" type="text" required>
+                    <label for="amount">Amount</label>
+                    <input id="amount" type="number"required>
+                    <button type="submit">Add</button>
+
+                </form>
+
+            <section>
+            </section>
+                
+        </main>
+                <footer><p>&copy;2026 Finance Tracker</p></footer>
+                <script src="scripy.js"></script>
+    </body>
+
+</html>
+        
+                    
